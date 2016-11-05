@@ -1,4 +1,4 @@
-// mpc
+// multiplex participation coefficient
 MATCH (v)-[e]-()
 WITH
   toFloat(COUNT(e)) AS degreeTotal,
