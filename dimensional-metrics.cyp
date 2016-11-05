@@ -1,3 +1,4 @@
+// nda, ndc, eda, edc
 MATCH (v)-[e]-()
 WITH
   toFloat(COUNT(DISTINCT v)) AS numberOfVertices,

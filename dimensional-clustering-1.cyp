@@ -1,3 +1,4 @@
+// dimensional cc1
 MATCH (v)
 OPTIONAL MATCH (v)-[r1]-(a1), (v)-[q1]-(b1)
 WHERE a1 <> b1 AND type(r1) = type(q1)

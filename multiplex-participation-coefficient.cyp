@@ -1,3 +1,4 @@
+// mpc
 MATCH (v)-[e]-()
 WITH
   toFloat(COUNT(e)) AS degreeTotal,

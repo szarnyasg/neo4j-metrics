@@ -1,3 +1,4 @@
+// dimensional degree
 // we omit zero values
 MATCH (v)-[e]-()
 RETURN
