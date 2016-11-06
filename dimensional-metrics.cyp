@@ -1,5 +1,6 @@
 // nda, ndc, eda, edc
-MATCH (v)-[e]-()
+MATCH (v)
+OPTIONAL MATCH (v)-[e]-()
 WITH
   toFloat(COUNT(DISTINCT v)) AS numberOfVertices,
   toFloat(COUNT(DISTINCT e)) AS numberOfEdges
